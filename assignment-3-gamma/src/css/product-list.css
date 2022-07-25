@@ -1,0 +1,38 @@
+.product-container {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.product-image img { 
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+}
+.product-info {
+    align-self: baseline;
+}
+.product-name {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[id="check"] + label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid orange;
+    border-radius: 2px;
+    cursor: pointer;
+}
+input[id="check"]:checked + label:after {
+    position: relative;
+    content: "\2714";
+    font-size: 14px;
+    top: -4px;
+    left: 2px;
+}
+input[id="check"] {
+    display: none;
+}

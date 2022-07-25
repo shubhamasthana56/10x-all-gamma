@@ -1,0 +1,29 @@
+.card {
+  margin-left: 50px;
+  border: 1px solid blue;
+  padding: 20px;
+  width: 25%;
+}
+
+.card-image img {
+  height: 100px;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.employee-name {
+  font-weight: bold;
+  font-size: 35px;
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.employee-label label {
+    color: gray;
+    font-size: 12px;
+}
+
+.employee-data {
+  margin-bottom: 10px;
+}

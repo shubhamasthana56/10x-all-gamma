@@ -1,0 +1,14 @@
+.customer-container {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.customer-key {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.customer-info {
+   margin-bottom: 10px; 
+}

@@ -1,0 +1,21 @@
+.header-container {
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    background: lightgray;
+    text-align: center;
+}
+.header-name { 
+    font-weight: bolder;
+}
+.header-id {
+    color: gray;
+}
+.button {
+    height: 30px;
+    width: 70px;
+    background-color: black;
+    color: white;
+}
