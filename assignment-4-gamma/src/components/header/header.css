@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.camera-icon {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.camera-icon img {
+    width: 50px;
+}
