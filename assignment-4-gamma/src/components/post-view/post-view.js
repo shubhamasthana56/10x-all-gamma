@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react"
 import Card from "../../card";
+import Header from "../header/header";
 const PostView = ()=> {
     const [posts, setPosts] = useState([]);
     useEffect(()=> {
@@ -12,13 +13,17 @@ const PostView = ()=> {
         })
     }, []);
     return (
-        <div className="post-container">
+        <>
+            <Header/>
+            <div className="post-container">
             {posts.map((post, i)=> {
                 return (
                     <Card post={post} key={i}/>
                 )
             })}
         </div>
+        </>
+        
     )
 }
 export default PostView;
